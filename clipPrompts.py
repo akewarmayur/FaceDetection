@@ -1,0 +1,48 @@
+gender_prompts = {
+    'a photo of a woman, girl, female': 'female',
+    "a photo of a female human facing away": 'female',
+    "a photo of a female human laying on her side": 'female',
+    "a photo of a woman facing sideways": 'female',
+    "a photo of a man, boy, male": 'male',
+    "a photo of a male human facing away": 'male',
+    "a photo of a male human laying on his side": 'male',
+    "a photo of a man facing sideways": 'male',
+    "a photo of a body part": 'unknown',
+    "a photo of unidentified object": 'unknown'
+}
+
+age_prompts = {
+    "a photo of a face of an adorable sweet baby girl, one year old, infant girl": "infant",
+    "a photo of a face of a sweet cute baby toddler girl": "infant",
+    "a photo of a face of a cute little girl, young child, pre-teen, female kid": "kid",
+    "a photo of a face of a playful child, kid": "kid",
+    "a photo of a child's face partially hidden, obscure face of a girl": "kid",
+    "a photo of a face of a girl": "teen",
+    "a photo of a face of a young teenage girl, adolescent, female teen": "teen",
+    "a photo of a face of a female high school student": "teen",
+    "a photo of a face of a teen girl with makeup": "teen",
+    "a photo of a face of a youth, juvenile rebellious teen, beautiful young woman": "adult",
+    "a photo of a teen's face partially hidden, obscure face of a female teen": "teen",
+    "a photo of a face of a female lady adult, grown-up woman": "adult",
+    "a photo of a face of a female college student with makeup, lady": "adult",
+    "a photo of a face of a woman, lady": "adult",
+    "a photo of a face of a female adult, mature lady, grown-up, middle-age woman, graceful "
+    "sophisticated woman": "adult",
+    "a photo of a adult's face partially hidden, obscure face of a woman": "adult",
+    "a photo of a face of a sweet baby boy, one year old, infant boy": "infant",
+    "a photo of a face of a cute baby boy, handsome toddler boy": "infant",
+    "a photo of a face of a little handsome boy, young child, pre-teen, male kid": "kid",
+    "a photo of a face of a boy": "kid",
+    "a photo of a child's face partially hidden, obscure face of a boy": "kid",
+    "a photo of a face of a young teenage boy, adolescent, male teen": "teen",
+    "a photo of a face of a male high school student": "teen",
+    "a photo of a face of a teen jock, high school athlete": "teen",
+    "a photo of a face of a youth, juvenile rebellious teen, immature young man": "adult",
+    "a photo of a teen's face partially hidden, obscure face of a male teen": "teen",
+    "a photo of a face of a male adult, grown-up man": "adult",
+    "a photo of a face of a male college student": "adult",
+    "a photo of a face of a man": "adult",
+    "a photo of a face of a male adult, mature gentlemen, grown-up, middle-age man, man with "
+    "facial hair": "adult",
+    "a photo of unidentified object": 'unknown',
+    "a photo of other": "unknown"}
